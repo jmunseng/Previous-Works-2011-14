@@ -1,0 +1,17 @@
+1.  타이틀 내용 추가
+2. 메타태그 추가
+<meta name="author" content=“작성자" />
+<meta name=“copyright" content=“저작권" />
+<meta name=“reply-to" content=“연락처나 메일주소" />
+<meta name=“date" content=“날짜(작성자)" />
+<meta name=“description" content=“한국문화센터는 ~ " />
+<meta name="keywords" content=“문화센터, 종로구 문화센터, 미술, " />
+
+3. body 태그 바로 밑에 스킵네이게이션 옮기기
+
+4. alt 넣기
+
+5. 헤딩태그 추가 
+
+6. 헤더부분의 제이쿼리를 별도 파일로 옮기기
+gallery_skitter.js

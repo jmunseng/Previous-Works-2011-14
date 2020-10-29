@@ -1,0 +1,56 @@
+.mainvisual {height:508px;background:url("../images/main/visual_al2.jpg")50% 0 no-repeat;}
+.main_box {width:1000px; margin:auto;}
+.main_box ul {position:absolute; top:300px;width:300px;}
+.main_box ul li {float:left;margin:0 10px 20px 0}
+
+
+.main_box ul li .gamestart{display:block;/* li a 상하패딩먹을수 잇게 */
+width:140px; height:45px; text-align:center;/* 널이높이가140.45이며 글짜를 중앙정렬하며 */
+background:url("../images/main/btn_game_start.png")no-repeat; color:#fff;/* 바탕을이미지를 넣고  반복안하며 색상이fff*/ 
+font-size:14px; font-weight:600;line-height:45px;}	/* 글짜크기가 14 굴기기600  높이 중앙정열 45*/
+
+.main_box ul li .sitego {display:block;
+width:140px; height:45px; text-align:center;
+background:url("../images/main/btn_site_go.png") no-repeat; color:#fff;
+font-size:14px; font-weight:600;line-height:45px;}
+
+.maincontents {width:1000px; margin:auto;padding:50px;}
+.maincontents .banner {width:416px; float:left;}
+.maincontents .banner .msg_box {width:376px;height:88px;
+background:#ececec;padding:30px 20px;}
+.maincontents .banner .msg_box p{line-height:170%;font-size:13px;}
+.maincontents .banner .ui_box {height:20px;background:#f5f5f5; padding:10px 15px;}
+.maincontents .banner .ui_box ul {float:left;height:25px;overflow:hidden;}
+.maincontents .banner .ui_box ul li {height:25px;}
+
+.maincontents .banner .ul_box ul a {color:#333;}
+.maincontents .banner .ui_box  .icon_box {float:right;}
+
+
+
+.article {float:left;}
+.article ul li {float:left;}
+.article li {width:188px;height:188px;border:1px solid #ccc;}
+.inner_article {padding:20px;display:block;color:#333;
+font-size:12	px;line-height:150%;}
+.inner_article span {display:block;}
+.inner_article .title {font-size:14px;font-weight:bold;}
+
+.article2 {float:left;}
+.article2 ul li {float:left;}
+
+
+.article .a01 .inner_article .img {margin-top:30px;
+background:url("../images/main/icon_main_conts.png") no-repeat 50% 0;height:65px;}
+
+.article .a02 .inner_article .img {margin-top:30px;
+background:url("../images/main/icon_main_conts.png") no-repeat 50% -132px;height:65px;}
+
+.article .a04 .inner_article .img {margin-top:30px;
+background:url("../images/main/icon_main_conts.png") no-repeat 50% -264px;height:65px;}
+
+.article .a05 .inner_article .img {margin-top:30px;
+background:url("../images/main/icon_main_conts.png") no-repeat 50% -396px;height:65px;}
+
+.article .a06 .inner_article .img {margin-top:30px;
+background:url("../images/main/icon_main_conts.png") no-repeat 50% -132px;height:65px;}

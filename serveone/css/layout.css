@@ -1,0 +1,50 @@
+body {font:12px "nanum"}
+.header_wrap {width:100%; border-bottom:3px solid #ff6600; 
+height:86px; overflow:hidden; position:absolute; background:#fff}
+/* 넓이를 1000px로 하고 가운데 정렬 하시오. */
+.header {width:1000px; margin:auto; position:relative; bo rder:1px solid #f00;
+overflow:hidden;
+}
+/* h1을 왼쪽으로 띄우고 gnb도 왼쪽으로 띄우시오 */
+h1 {float:left; margin:20px 100px 0 0}
+#gnb {float:left; padding-top:20px}
+/* gnb li 를 왼쪽으로 띄우고 글자 크기를 20px로 하고 컬러를 333으로 주시오 */
+#gnb li {float:left; padding:20px 0}
+#gnb li a {color:#333; font-family:"nanumB"; 
+font-size:16px; width:150px; display:block; text-align:center;
+border-left:1px solid #ccc; }
+
+
+#gnb li .sub {height:220px; border-left:1px solid #ccc; 
+margin-top:30px}
+#gnb li .sub li {float:none; padding:5px 25px}
+#gnb li .sub li a {color:#333; font-family:"nanumB"; 
+font-size:12px; width:100px; display:block; text-align:left;
+border-left:none}
+
+
+
+/* position은 네가지가 있다. relative   absolute   static    fixed 
+	relative는 자기 기준
+	absolute는 부모에게 position이 있으면 부모 기준 없으면 body기준
+*/
+.util_menu {position:absolute; top:10px; right:155px}
+.util_menu li {float:left}
+.util_menu li a {color:#333; font-family:"nanum"; font-size:12px;padding:0 6px; 
+display:block; border-left:1px solid #ccc}
+
+.util_menu li:first-child a {border-left:none}
+#gnb li:first-child a {border-left:none}
+
+
+.header .btn_wrap {float:right; margin-top:15px}
+
+.footer_wrap {background:url("../images/layout/bg_footer.gif") repeat-x 0 0;padding-bottom:30px}
+.footer_box {width:1000px; margin:auto;overflow:hidden}
+.footer_box .privacy {float:left}
+.footer_box .privacy li {float:left}
+.footer_box .privacy a{font-size:14px; color:#fff; padding:10px 15px; display:block}
+.footer_box .select_wrap {float:right;line-height:36px}
+/* 컨테이너의 높이와 line-height를 똑같이 쓰면 서로 중앙절려란다  */
+.footer_box strong {font-weight:bold;padding:0 10px 0 0}
+.footer_box address {padding:20px 0 10px}

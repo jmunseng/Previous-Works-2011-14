@@ -1,0 +1,18 @@
+.subvisual {width:100%;height:160px;background:#fff no-repeat}
+.sub01 {background:url("../images/contents/visual_1.jpg") #fff no-repeat 50% 0}
+
+.sub_nav {background:url("../images/contents/2depth_bg.gif") repeat-x;}/* 배경에 의미지url() repeat-x  x로만 반복 */
+.sub_nav ul {width:1000px; margin:auto;overflow:hidden;}/* 플로팅한 분모에 히든해야 높이인식 */
+/* blocd의 중앙정렬은 넓이를 주고 margin:auto를 준다
+inline (a,img,input,span등등)의 중앙정렬은 text-align:center을 준다 */
+.sub_nav li {float:left}
+
+.subcontents {width:1000px; margin:auto; padding:30px; 0}
+.sub_title {overflow:hidden; margin-bottom:60px;}
+.sub_title h2 {float:left;}
+.sub_title .nav {float:right;}
+.sub_title .nav li {float:left; font-size:12px; margin:0 5px;padding:0 10px; background:url("../images/contents/title_arrow.gif") no-repeat 0% 50%}
+.sub_title .nav  li:first-child{background:none;}
+.subcontents .ceo_txt {font-size:13px;font-family:"맑은 고딕"; line-height:160%;padding-top:120px;}
+
+/* backgroudnL이미지경로	백그라운드 컬러		 반복여부    x 축y축 */

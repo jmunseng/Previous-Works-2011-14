@@ -1,0 +1,21 @@
+body {font-family:"nanum"; font-size:12px;}
+.header_wrap {border-bottom:1px solid #ccc;background:#eee;}
+.header {width:1000px;margin:auto;padding:10px 0;overflow:hidden;}
+h1 {float:left;margin-right:20px;}
+
+#gnb {float:left;}
+#gnb li {float:left;}
+#gnb li a {font-size:13px; font-weight:600;color:#666;padding:3px 10px;display:block;} /* li에 상하패딩이 안먹힐때 display block */
+.denglu {float:right;}
+.denglu li {float:left;}
+.denglu li a {font-size:13px; font-weight:600;color:#666;padding:3px 10px;display:block;border-left:1px solid #ccc;}
+.denglu li:first-child a {border-left:none;}
+
+.btn_wrap {width:100%; border-top:1px solid #000;border-bottom:1px solid #000;background:#555;}
+.btn_wrap ul {width:1000px; margin:auto; overflow:hidden;}
+.btn_wrap ul li {float:left;}
+.btn_wrap ul li a {color:#fff; width:140px; height:45px;
+display:block; background:#555; border-right:1px solid #333	;
+text-align:center; line-height:45px;}
+
+.btn_wrap ul li:first-child a {border-left:1px solid #333;}

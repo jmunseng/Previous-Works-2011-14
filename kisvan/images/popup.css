@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+.popup {position:absolute; top:100px; left:100px; z-index:20000; width:510px; height:100%}
+
+
+
+/* recruit
+-----------------------------------------------------------------------------*/
+
+.popup .popup_recruit {width:500px; background:url(../image/popup/01/bg.jpg) no-repeat top center; font-size:0; display:inline-block; border:5px solid #053d88;}
+
+.popup .popup_recruit p {margin:219px 0 0 38px; height:50px; font-family:'Nanum Gothic'; font-size:13px; font-weight:800; color:#fff;}
+.popup .popup_recruit .text01 {width:500px; height:28px; display:inline-block; margin:0; padding:7px 0 0 0; font-size:0; text-align:left; list-style:none;}
+.popup .popup_recruit .text01 .line {color:#a9a9a9}
+.popup .popup_recruit .text01 a.pop_link, a.pop_link:visited, a.pop_link:active {font-family:'Nanum Gothic'; font-size:13px; font-weight:800; color:#555555; text-decoration:none;}
+.popup .popup_recruit .text01 a.pop_link:hover {font-family:'Nanum Gothic'; font-size:13px; font-weight:800; color:#555555; text-decoration:none;}
+
+.popup .popup_recruit .text02 {width:500px; height:106px; display:inline-block; margin:0; padding:7px 0 0 0; font-size:0; text-align:left; list-style:none;}
+.popup .popup_recruit .text02 ul { display:inline-block; margin:0; padding:0; font-size:0; text-align:left; list-style:none;}
+.popup .popup_recruit .text02 ul li {font-family:'Nanum Gothic'; font-size:13px; font-weight:800; color:#555555; line-height:135%;}
+.popup .popup_recruit .text02 ul li span {font-size:10px;}
+.popup .popup_recruit .text02 .title {color:#222222;}
+.popup .popup_recruit .text02 .mt_10 {margin-top:5px;}
+
+
+
+.popup .popup_recruit .left {float:left; width:65px; padding:0 0 0 40px; text-align:left; vertical-align:top; font-family:'Nanum Gothic'; font-size:14px; font-weight:600; color:#222222; display:inline-block;}
+.popup .popup_recruit .right {float:left; width:360px; padding:1px 0 0 12px; text-align:left; vertical-align:top; font-family:'Nanum Gothic'; font-size:13px; font-weight:700; color:#555555;display:inline-block;}
+
+.popup .popup_recruit .popup_btn {width:100%; text-align:center; margin:15px 0 35px 0;}
+
+.popup .popup_today {width:100%; height:28px; background-color:#053d88; font-family:'Nanum Gothic'; font-size:13px; font-weight:600; color:#fff; padding:5px 0 0 0; text-align:right;}
+.popup .popup_today .today_input {vertical-align:-3px; margin:0 15px 0 0; border:0;}
+.popup .popup_today  a.popupClose, a.popupClose:visited, a.popupClose:active {color: #fff; font: 13px 'Nanum Gothic'; text-decoration:none;font-weight:600;}
+.popup .popup_today  a.popupClose:hover {font: 13px 'Nanum Gothic'; color:#fff; text-decoration:none; font-weight:600;}

@@ -1,0 +1,37 @@
+.mainvisual {width:100%; height:400px; background:url("../images/main/bg_visual.jpg") no-repeat 50% 89px; padding-top:89px;}
+
+.maincontents .top_wrap {border-bottom:1px solid #ccc;overflow:hidden;padding:20px 0}
+
+.maincontents .top_contents {width:1000px;margin:auto;padding:20px 0}
+
+.maincontents .box {width:292px;height:200px;padding:0 20px;border-left:1px solid #ccc;position:relative;float:left;}
+
+.maincontents .box:first-child {border-left:none}
+
+.maincontents .box h2 {font-size:20px;margin-bottom:20px}
+
+.maincontents .box .desc {line-height:150%}
+
+.maincontents .box .link    {position:absolute; bottom:30px; color:#000;font-weight:600;font-size:13px}
+
+.maincontents .box strong {font-weight:600}
+
+.maincontents .news li a {line-height:180%}
+.maincontents .news li a {color:#333;background:url(../images/main/bu10.gif) no-repeat 0 50%;padding-left:10px}
+.maincontents .news .more {position:absolute;top:15px;right:20px}
+.maincontents .ghdqh .more {position:absolute;top:15px;right:20px}
+
+.maincontents .business {background:url("../images/main/bg_manage.gif") no-repeat 220px	100px;}
+.maincontents .recruit {background:url("../images/main/bg_recruit.gif") no-repeat 220px	100px}
+.maincontents .tkghl {background:url("../images/main/bg_social.gif") no-repeat 220px 100px}
+.maincontents .ghdqh {background:url("../images/main/bg_prvideo.gif") no-repeat 220px 100px}
+.maincontents .dnsfl   {background:url("../images/main/bg_ethical.gif") no-repeat 220px 100px}
+
+
+.maincontents .dnsfl ul {width:160px; margin-top:10px}
+.maincontents .dnsfl li a {padding:5px 10px; display:block; color:#000;background:url("../images/main/bu01.gif") no-repeat 0 50%;
+border-bottom:1px solid #ccc}
+.maincontents .dnsfl li:first-child a {border-top:1px solid #ccc}
+
+
+

@@ -1,0 +1,17 @@
+			.mainvisual {
+				height:500px;
+				background:url("../images/vimg1.jpg") /* 백그라운드 의미지 */
+				no-repeat 50% 0/* 반복하지 안겟다,엑스50 와이0 [repeat-x엑스축만 반복] */
+
+			}
+			.maincontents {width:1000px; margin:auto}
+			.maincontents .banner {float:left;width:780px;}
+			.maincontents .banner li {float:left;border-bottom:1px solid #ccc}
+			.maincontents .banner li a {padding:20px 25px;display:block;}
+
+			.maincontents .quick {float:right; width:220px}
+			.maincontents .quick li {float:left}
+			.maincontents .quick li a {padding:19px;
+														display:block;
+														background:#231f20}
+			.maincontents .quick .tel {padding:25px;background:#231f20}

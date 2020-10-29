@@ -1,0 +1,36 @@
+	/* 1. header의 넓이를 1000px로 주고 중앙정열
+		2. h1을좌측으로 띄우고 gnb을 우측으로 띄움	
+		3. gnb안에 li를 좌측으로 띄우시오
+		4. gnb안에 lil안에 a의 안쪽 여백을 상하 20px 좌우 30px
+		5. header_wrap 믿줄으 3px solid #3366cc
+		6. mainvisual에 이미지를 백그라운드 처리해서 중앙으로 집어넣으세요
+			배그라운드 넣을때는 높이를 지정해서 넣으면 됨다
+		7. maincontents 의 넓이를 1000px로 하고 중앙정렬시킨다
+		8. banner 안에 잇는 li 들을 왼쪽으로 나열한다.이때 부모인 banner의 넓이를 780정해줘서 2개까지 들어가게 만든다
+		9. banner을 왼쪽으로 quick을 오른쪽으로뛰움
+		10. quick의 li을 왼쪽으로 뛰움 그안 a태그 안쪽여백을 상하좌우19px식 주고컬러#231f20
+		11. quick안쪽 tel 안쪽 여복을 */
+	
+
+	* {margin:0;padding:0}/* 전체여백  */
+	img {border:none}
+	h1 {float:left}/* 큰제목 띄우기 */
+	li {list-style:none;}/* 점지우기 */
+	.header_wrap {border-bottom:3px solid #6699cc;}/* 둘레-믿줄만 색상 */
+	.header {width:1000px; margin:auto; padding:20px 0px;overflow:hidden;}/* 널비;중앙정렬;;[자식에float으로 띄워졋을떄 부모의 높이를 인속 못함,이때 부모에게 overflow:hidden을 준면 높이만 인식 */
+	#gnb {float:right}/* 전체를 띄운다 */
+	#gnb li {float:right}/* 안에것도 띄운다 */
+	#gnb li a {text-decoration:none;/* 밎줄지우기 */
+			color:#000000;/* 글색 */
+			font-size:20px;/* 글싸이즈 */
+			font-weight:bold;/* 글 굵기 */
+			font-family:"맑은 고딕";/* 글꼴 */
+			/* 적용 우선순위 id=100, class=10, li,a=1, inline-style=1000, !important는 최우선 */
+			display:block;/* 상하패딩을 가능화 */
+			padding:10px 20px;} /* 글싸속의 여백 */
+			/* inline은 상하padding이 먹지 안는다 */
+			.footer {border-top:1px solid #ccc;width:1000px; margin:50px auto 0;padding:30px 0; overflow:hidden;clear:both}
+			.footer .footer_logo {float:left}
+			.footer address {float:left; font-style:normal; margin:0 0 0 30px}
+			.footer-size:12px; font-family:"맑은 고딕"
+			.footer address p {margin:0 0 10px 0}

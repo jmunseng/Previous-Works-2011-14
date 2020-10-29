@@ -1,0 +1,33 @@
+@font-face {
+	font-family:"nanum";
+	src:url('../fonts/NanumGothic.eot');
+	src:url('../fonts/NanumGothic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NanumGothic.woff') format('woff');
+}
+@font-face {
+	font-family:"nanumB";
+	src:url('../fonts/NanumGothicBold.eot');
+	src:url('../fonts/NanumGothicBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NanumGothicBold.woff') format('woff');
+}
+@font-face {
+	font-family:"nanumEB";
+	src:url('../fonts/NanumGothicExtraBold.eot');
+	src:url('../fonts/NanumGothicExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NanumGothicExtraBold.woff') format('woff');
+}
+
+@font-face {
+	font-family:"barun";
+	src:url('../fonts/NanumBarunGothic.eot');
+	src:url('../fonts/NanumBarunGothic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NanumBarunGothic.woff') format('woff');
+}
+
+@font-face {
+	font-family:"barunB";
+	src:url('../fonts/NanumBarunGothicBold.eot');
+	src:url('../fonts/NanumBarunGothicBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/NanumBarunGothicBold.woff') format('woff');
+}
+
