@@ -1,0 +1,12 @@
+@charset "utf-8";
+@import url(base.css);
+
+
+
+
+/*공지사항팝업 2013.09.06*/
+.notice1 {background:url(../images/csub/apostbg_notice.jpg) no-repeat; width:360px; height:46px; border-bottom:1px solid #dedede;}
+.notice_pop_text {width:358px; border:1px solid #dedede; margin-top:9px; }
+.notice_pop_text tr td {padding:8px;}
+.idokclose {width:360px; text-align:right;}
+.idokclose img {padding:5px;}
