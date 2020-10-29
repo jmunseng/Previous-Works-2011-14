@@ -1,0 +1,10 @@
+@import url("import.css");
+
+dl {padding:50px 18px 0;}
+dl dt {text-align:center;}
+dt p {font:15px "Rix고딕 B";color:#5d6167;margin-top:10px;}
+
+dl dd ul {width:100%;display:table;margin-top:50px;}
+dl dd ul li {width:50%;display:table-cell;padding:0 3px;}
+dl dd ul li a {border:1px solid #ccc;border-radius:5px;display:block;text-align:center;height:36px;font:15px/36px "Rix고딕 M";background:#f6f6f6;color:#5d6167;}
+dl>a {display:block;margin-top:10px;color:#3279ee;text-decoration:underline;text-align:center;font:14px "Rix고딕 M";}

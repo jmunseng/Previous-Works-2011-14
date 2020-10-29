@@ -1,0 +1,15 @@
+@import url("import.css");
+body {background:#efefef;}
+#navi {width:99%;margin:auto;}
+#navi>p {margin:25px 0 5px 10px;font:15px "Rix고딕 EB";color:#222222;}
+#navi .group {margin-bottom:1px;border-radius:5px;border:1px solid #e5e5e5;background:#fff url("../images/2_ico.png")no-repeat 95%;}
+#navi .group .title {border-radius:5px 5px 0 0 ;height:30px;cursor:pointer;text-indent:18px;font:14px/30px "Rix고딕 M";}
+#navi .group .title:hover {background:#d3d3d3;}
+#navi .group .gui_1 {text-align:center;}
+#navi .group .sub {background:#f2f2f2;}
+#navi .group .sub li h2 {padding:10px 15px 0;font:15px/30px "Rix고딕 M"}
+#navi .group .sub>li>p {padding:0 15px 0;font:14px/30px "Rix고딕 M";}
+#navi .group .gui_2 li {cursor:pointer;margin-left:18px;font:14px/30px "Rix고딕 M";background:url("../images/2_ico.png")no-repeat 98%;border-bottom:1px solid #c1c1c1;;}
+#navi .group .gui_2 li:last-child {border-bottom:none;}
+#navi .group .gui_2 .title_2:hover {background:#d3d3d3;}
+#navi .group .gui_2 .gui_2_a {background:#e8e8e8;}

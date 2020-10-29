@@ -1,0 +1,9 @@
+@import url("import.css");
+
+dl {margin:auto;text-align:center;margin-top:33px;position:relative;width:300px;}
+dl dt {font:15px "Rix고딕 B";color:#5d6167;}
+dl dd.box1 {position:absolute;top:45px;left:3px;}
+dl dd.box2 {position:absolute;top:45px;left:106px;}
+dl dd.box3 {position:absolute;top:45px;left:209px;}
+dl dd.box4 {position:absolute;top:155px;left:40px;}
+dl dd.box5 {position:absolute;top:155px;left:157px;}

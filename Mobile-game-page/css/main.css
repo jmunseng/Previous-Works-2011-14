@@ -1,0 +1,36 @@
+@import url("import.css");
+.mileage {background:url("../images/nav_bg.png") repeat-x center,#2d3039;width:100%;height:86px;font:16px/16px "Rix고딕 B";color:#fff;}
+.mileage .my_mileage li {width:50%;float:left;text-align:center;margin-top:8px;}
+.mileage .my_mileage li em {color:#82b4ff;}
+
+.mileage .mileage_un {clear:both;}
+.mileage .mileage_un li {width:49%;float:left;}
+.mileage .mileage_un img {float:left;margin-top:12px;}
+.mileage .mileage_un li a {text-align:center;display:block;line-height:48px;}
+.fxd {position:fixed;width:100%;top:0;z-index:998;}
+h2 {background:url("../images/list_bg.jpg") repeat-x 0 50%;line-height:34px;height:34px;text-align:center;position:relative;border-bottom:1px solid #d7dade;}
+h2 select {position:absolute;top:4px;right:7px;border:1px solid #ccc;border-radius:3px;width:60px;font:14px "Rix고딕M";background:#fff;height:26px;}
+.content {padding-top:121px;}
+.content .hidden {overflow-y:scroll;height:350px;}
+#see_more {border-top:1px solid #d7dade;}
+.content ul li {border-top:1px solid #d7dade;}
+.content ul li:first-child {border-top:none;}
+.content ul li a {padding:12px 8px 14px;height:45px;display:block;}
+.content ul li a .left_img {float:left;display:block;margin-right:11px;}
+.content ul li a .right_nm {font:12px "Rix고딕M";display:block;color:#969696;padding-top:1px;text-overflow:ellipsis;
+	 white-space:nowrap; overflow:hidden;}
+.content ul li a .right_nm em {font:14px "Rix고딕B";color:#000;}
+.content ul li a .right_nm em img {margin:-8px 0 0 5px;}
+.content ul li a .right_nm p {margin-top:2px;color:#3279ee;}
+
+.guide {display:block;text-align:center;font:15px/30px "Rix고딕 L";color:#2d3039;width:100%;height:30px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;background:url("../images/2_ico.png")no-repeat 95%;}
+.guide:hover {background:#b3b3b3;}
+#more {display:block;text-align:center;font:15px/30px "Rix고딕 L";color:#2d3039;width:100%;height:30px;border-top:1px solid #ccc;background:url("../images/3_ico.png")no-repeat 96%;}
+
+#lightbox{width:100%;height:100%;z-index:200;position: absolute;top:0;left:0;z-index:999;}
+#lightbox .lb_top1 {width:100%;}
+#a1 {width:100%;height:471px;background:url("../images/lb_top2.png");}
+#a1 .lb_img1 {width:100%;height:165px;background:url("../images/lb_img1.png")no-repeat bottom right;position:fixed;}
+#a1 .lb_img2 {width:100%;height:254px;background:url("../images/lb_img2.png")no-repeat bottom center;}
+#a1 .lb_img3 {width:100%;height:217px;background:url("../images/lb_img3.png")no-repeat bottom center;}
+#aa1 {float:right;position:fixed;top:5px;right:5px;z-index:1000;}

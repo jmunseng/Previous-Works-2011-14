@@ -1,0 +1,18 @@
+@charset  "utf-8";
+
+@font-face{
+    font-family: "Rix고딕B";
+            src:url('../fonts/Rix고딕B.ttf');
+}
+@font-face{
+    font-family: "Rix고딕EB";
+            src:url('../fonts/Rix고딕EB.ttf');
+}
+@font-face{
+    font-family: "Rix고딕L";
+            src:url('../fonts/Rix고딕L.ttf');
+}
+@font-face{
+    font-family: "Rix고딕M";
+            src:url('../fonts/Rix고딕M.ttf');
+}

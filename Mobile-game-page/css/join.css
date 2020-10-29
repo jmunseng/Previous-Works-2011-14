@@ -1,0 +1,83 @@
+@import url("import.css");
+.header {height:131px;padding:3px 6px 0;}
+.header .header_top {height:54px;padding:0 2px 0;}
+.header .left_img {float:left;display:block;margin-right:11px;}
+.header .right_nm {font:12px "Rix고딕M";padding-top:9px;display:block;color:#969696;}
+.header .right_nm em {font:14px "Rix고딕B";color:#000;}
+
+.header .join {padding:0 2px;}
+.header .join li {background:#708cba;border:1px solid #6179a3;height:33px;border-radius:3px;width:100%;}
+body>p {font:15px "Rix고딕 M";float:right;margin-top:40px;}
+.header .join li a {display:block;text-align:center;font:15px/33px "Rix고딕 EB";color:#fff;}
+.header .join li a em {font:13px "Rix고딕 L";color:#ffc1c1;}
+
+.header .join_un {margin-top:4px;display:table;width:100%;}
+.header .join_un li {width:50%;display:table-cell;background:#f6f6f6;padding:0 2px;}
+.header .join_un li a {display:block;border:1px solid #6179a3;height:33px;border-radius:3px;text-align:center;font:15px/33px "Rix고딕 M";color:#5d6167;}
+.header .join_un li a img {margin:-3px 5px 0 0;}
+
+.mileage .mileage_un {clear:both;}
+.mileage .mileage_un li {width:49%;float:left;}
+.mileage .mileage_un img {float:left;margin-top:12px;}
+.mileage .mileage_un li a {text-align:center;display:block;line-height:48px;display:block;}
+
+.overtime {width:100%;height:30px;border-top:1px solid #24272e;background:#2d3039;line-height:30px;}
+.overtime h3 {float:left;margin-left:6px;line-height:35px;}
+.overtime time {color:#fff;float:right;font-size:30px;margin-right:6px;}
+.overtime time b {margin:5px;font-size:15px;}
+
+.content h2 {background:url("../images/list_bg.jpg") repeat-x 0 50%;height:20px;padding:7px;border-top:1px solid #d7dade;border-bottom:1px solid #d7dade;position:relative;color:#576d8e;}
+
+.content h2.my_ranking {border-top:1px solid #d7dade;}
+.content h2.my_ranking input {position:absolute;right:6px;}
+.content h2 time {color:#576d8e;margin-right:30px;float:right; line-height:23px ;font-family:"Rix고딕 EB";}
+
+.content table {width:100%;}
+.content table thead {font:15px "Rix고딕 B";color:#969696;height:18px;}
+.content table thead tr th {padding:5px 0;border-image:url("../images/bdl_img.png");}
+.content table tbody {font:14px "Rix고딕 M";color:#282828;text-align:center;}
+.content table tbody tr td {height:11px;}
+.content table.ranking_top3 {margin-bottom:10px;}
+.content table.ranking_me {margin-bottom:10px;}
+.content table.ranking_me tbody tr.my_rak {background:#ededed;color:#006da1;}
+
+.content h3 {padding:0 6px;position:relative;}
+.content h3>img {margin-top:28px;}
+.content h3 span img {position:absolute;top:5px;left:50px;}
+.content h3 ul {display:table;width:100%;margin-top:7px;}
+.content h3 ul li {width:50%;display:table-cell;background:#f6f6f6;padding:0 2px;}
+.content h3 ul li a {display:block;border:1px solid #6179a3;height:33px;border-radius:3px;text-align:center;font:15px/33px "Rix고딕 M";color:#5d6167;}
+
+/* #lightbox {width:100%;height:100%;z-index: 1;opacity:0.6;background:black;display:none;}
+#a1{width:100%;height:100%;background:#000;z-index:200;position: absolute;top:0;opacity:0.5;}
+#aa1 {float:right;position:absolute;top:5px;right:5px;z-index:1000;}
+ */
+#remind {position: absolute;top:0;left:0;z-index:100000;display:none;width:100%;height:100%;}
+#remind div {margin:20% auto;width:300px;border:1px solid #6078a1;border-radius:5px;background:#708cba;}
+#remind dl {padding:5px;}
+#remind dt {height:22px;font:15px "Rix고딕 EB";color:#fff;text-align:center;}
+#remind dd {background:#fff;border-radius:3px;padding:10px;font:15px "Rix고딕 L";}
+#remind dd p {margin-bottom:5px;}
+#remind dd p img {margin-right:4px;} 
+#remind dd b em {color:red;}
+#remind dd ul {width:100%;display:table;margin-top:10px;}
+#remind dd ul li {width:50%;display:table-cell;padding:0 3px;}
+#remind dd ul li a {border:1px solid #ccc;border-radius:5px;display:block;text-align:center;height:36px;font:15px/36px "Rix고딕 M";background:#f6f6f6;color:#5d6167;}
+
+#remind_1 {position: absolute;top:0;left:0;z-index:100000;display:none;width:100%;height:100%;}
+#remind_1 div {margin:20% auto;width:300px;border:1px solid #6078a1;border-radius:5px;background:#708cba;}
+#remind_1 dl {padding:5px;}
+#remind_1 dt {height:22px;font:15px "Rix고딕 EB";color:#fff;text-align:center;}
+#remind_1 dd {background:#fff;border-radius:3px;padding:10px;font:15px "Rix고딕 L";text-align:center;}
+#remind_1 dd p {margin-bottom:5px;}
+#remind_1 dd p img {margin-right:4px;} 
+#remind_1 dd ul {width:100%;display:table;margin-top:10px;}
+#remind_1 dd ul li {width:50%;display:table-cell;padding:0 3px;}
+#remind_1 dd ul li a {border:1px solid #ccc;border-radius:5px;display:block;text-align:center;height:36px;font:15px/36px "Rix고딕 M";background:#f6f6f6;color:#5d6167;}
+
+#lightbox{width:100%;height:570px;z-index:200;position: absolute;top:0;left:0;}
+#lightbox .lb_top1 {width:100%;}
+#a1 {width:100%;height:100%;background:url("../images/lb_top2.png");}
+#a1 .lb_img1 {width:100%;height:378px;background:url("../images/lb_img4.png")no-repeat center 52px;}
+#a1 .lb_img2 {width:100%;height:121px;background:url("../images/lb_img5.png")no-repeat bottom center;}
+#aa1 {float:right;position:absolute;top:5px;right:5px;z-index:1000;}

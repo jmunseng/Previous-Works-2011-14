@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+<meta charset="UTF-8">
+<title>이벤트 온</title>
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/jquer.js"></script>
+<script src="../js/jquery-1.9.1.min.js"></script> 
+
+<link rel="stylesheet" href="../css/event_on.css" />
+</head>
+<body>
+	<header>
+		<hgroup>
+			<p>
+				<select name="" id="">
+					<option disabled>조회 기간 선택</option>
+					<option value="1">2014년 6월 1회차</option>
+					<option value="2">2014년 5월 2회차</option>
+					<option value="3">2014년 4월 3회차</option>
+					<option value="4">2014년 3월 4회차</option>
+				</select>
+			</p>
+			<h2><img src="../images/1_ico.png" alt="1_ico" width="10" /> 미수령 보상은 지급된 날로부터 최대 3개월까지 확인이 가능합니다. <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3개월 이상 지나면 수령이 불가능합니다.
+			<a href="../guide.html"> ※5만원이 초과되는 상금 수령에 대한 안내</a>
+			</h2>
+		</hgroup>
+	</header>
+	<section>
+		<div id="Cont_1">
+			<ul>
+				<li class="ls_img"><span><img src="../images/ev_img_01.png" alt="ev_img_01" /></span></li>
+				<li class="ls_middle">신봉선 맞고 랜덤보상<p>2014-05-26 | 2014년 5월 4회차 보상</p></li>
+				<li class="ls_right"><a href="04_event_rd.html">보상받기</a></li>
+			</ul>
+			
+			<ul>
+				<li class="ls_img, ls_img2"><span><img src="../images/ev_img_02.png" alt="ev_img_02" /></span></li>
+				<li class="ls_middle">신봉선 맞고 보상<p>2014-05-26 | 2014년 5월 4회차 보상</p></li>
+				<li class="ls_right"><a href="04_event_ml_on.html">보상받기</a></li>
+			</ul>
+			<ul>
+				<li class="ls_img, ls_img2"><span><img src="../images/ev_img_03.png" alt="ev_img_03" /></span></li>
+				<li class="ls_middle">신봉선 맞고 보상<p>2014-05-26 | 2014년 5월 4회차 보상</p></li>
+				<li class="ls_right"><span>적립<br />+1000</span></li>
+			</ul>
+			<ul>
+				<li class="ls_img"><span><img src="../images/ev_img_04.png" alt="ev_img_04" /></span></li>
+				<li class="ls_middle">신봉선 맞고 랜덤보상<p>2014-05-26 | 2014년 5월 4회차 보상</p></li>
+				<li class="ls_right"><span>적립<br />+400</span></li>
+			</ul>
+		</div>
+		<div id="Cont_2" class="hide">
+			
+			<ul>
+				<li class="ls_img, ls_img2"><span><img src="../images/ev_img_02.png" alt="ev_img_02" /></span></li>
+				<li class="ls_middle">신봉선 맞고 보상<p>2014-05-26 | 2014년 5월 4회차 보상</p></li>
+				<li class="ls_right"><a href="04_event_ml_on.html">보상받기</a></li>
+			</ul>
+			<ul>
+				<li class="ls_img, ls_img2"><span><img src="../images/ev_img_03.png" alt="ev_img_03" /></span></li>
+				<li class="ls_middle">신봉선 맞고 보상<p>2014-05-26 | 2014년 5월 4회차 보상</p></li>
+				<li class="ls_right"><span>적립<br />+1000</span></li>
+			</ul>
+			<ul>
+				<li class="ls_img"><span><img src="../images/ev_img_04.png" alt="ev_img_04" /></span></li>
+				<li class="ls_middle">신봉선 맞고 랜덤보상<p>2014-05-26 | 2014년 5월 4회차 보상</p></li>
+				<li class="ls_right"><span>적립<br />+400</span></li>
+			</ul>
+		</div>
+		<div id="Cont_3" class="hide">
+			
+			<ul>
+				<li class="ls_img, ls_img2"><span><img src="../images/ev_img_03.png" alt="ev_img_03" /></span></li>
+				<li class="ls_middle">신봉선 맞고 보상<p>2014-05-26 | 2014년 5월 4회차 보상</p></li>
+				<li class="ls_right"><span>적립<br />+1000</span></li>
+			</ul>
+			<ul>
+				<li class="ls_img"><span><img src="../images/ev_img_04.png" alt="ev_img_04" /></span></li>
+				<li class="ls_middle">신봉선 맞고 랜덤보상<p>2014-05-26 | 2014년 5월 4회차 보상</p></li>
+				<li class="ls_right"><span>적립<br />+400</span></li>
+			</ul>
+		</div>
+		<div id="Cont_4" class="hide">
+			<ul>
+				<li class="ls_img, ls_img2"><span><img src="../images/ev_img_03.png" alt="ev_img_03" /></span></li>
+				<li class="ls_middle">신봉선 맞고 보상<p>2014-05-26 | 2014년 5월 4회차 보상</p></li>
+				<li class="ls_right"><span>적립<br />+1000</span></li>
+			</ul>
+		</div>
+	</section>
+		<script type="text/javascript">
+$(function(){
+$('select').change(function(){
+
+var value=$("select").find("option:selected").val();
+
+if(value=='1'){
+$('#Cont_1').removeClass('hide');
+$('#Cont_2,#Cont_3,#Cont_4').addClass('hide');
+}
+if(value=='2'){
+$('#Cont_2').removeClass('hide');
+$('#Cont_1,#Cont_3,#Cont_4').addClass('hide');
+}
+if(value=='3'){
+$('#Cont_3').removeClass('hide');
+$('#Cont_1,#Cont_2,#Cont_4').addClass('hide');
+}
+if(value=='4'){
+$('#Cont_4').removeClass('hide');
+$('#Cont_1,#Cont_2,#Cont_3').addClass('hide');
+}
+
+});
+
+});
+</script>
+</body>
+</html>

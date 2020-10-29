@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+<meta charset="UTF-8">
+<title>신봉선 맞고</title>
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/jquer.js"></script>
+<script src="http://code.jquery.com/jquery-1.4.4.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/consent.css" />
+</head>
+<body>
+	<section>
+	<form name="agryment" action="guide.html">
+	<input type="hidden" name="FlagVal" value="">
+		<h2>이용약관 및 동의</h2>
+		<dl>
+			<dt><label><input id="checkAll" type="checkbox" />전체 약관에 동의합니다.</label></dt>
+			<dd><label><input name="subBox" type="checkbox" />리그온 이용약관에 동의합니다.</label><a href="javascript:SubmitRTN(1)"><img src="images/2_ico.png"/></a></dd>
+			<dd><label><input name="subBox" type="checkbox" />개인정보 취급 방침에 동의합니다.</label><a href="javascript:SubmitRTN(2)"><img src="images/2_ico.png"/></a></dd>
+		</dl>
+		<p>	마일리지 리그온에 참여 하시겠습니까?<br /><br />
+		
+		게임 참가 시 500 마일리지가 차감되며 총 3판의 
+		게임을 즐기실 수 있습니다.
+		</p>
+		<ul>
+			<li OnClick=""><a href="javascript:SubmitRTN(0)">확인</a></li>
+			<li><a href="javascript:history.go(-1)" >게임 페이지로</a></li>
+		</ul>
+	</form>
+	</section>
+<script type="text/javascript">
+        $(function() {
+           $("#checkAll").click(function() {
+                $('input[name="subBox"]').attr("checked",this.checked); 
+            });
+            var $subBox = $("input[name='subBox']");
+            $subBox.click(function(){
+                $("#checkAll").attr("checked",$subBox.length == $("input[name='subBox']:checked").length ? true : false);
+            });
+        });
+</script>
+
+</body>
+<script type="text/javascript">
+function SubmitRTN(Flag) {
+	document.agryment.FlagVal.value = Flag;
+	switch (Flag)
+	{
+		case 0	:	if(!document.getElementById("checkAll").checked) {
+						if(document.all.subBox[0].checked) {
+							alert("개인정보취급 방침에 동의 하셔야 합니다.");
+						}
+						else
+						if(document.all.subBox[1].checked) {
+							alert("리그온 이용약관에 동의 하셔야 합니다.");
+						}
+						else
+						{
+							alert("이용약관에 대한 동의를 하셔야 합니다.");
+						}
+						break;
+					}
+					history.back();
+					break;
+		case 1	:	document.agryment.submit();
+					break;
+		case 2	:	document.agryment.submit();
+					break;
+		default	:	break;
+	}
+}
+</script>
+</html>

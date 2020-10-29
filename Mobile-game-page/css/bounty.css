@@ -1,0 +1,29 @@
+@import url("import.css");
+
+.bounty header {padding:10px 8px 6px;border-bottom:1px solid #d7dade;}
+.bounty header h2 {font:13px "Rix고딕 B";color:#282828;}
+.bounty header span {font:10px "Rix고딕 M";color:#5d6167;}
+
+.content {padding:11px 24px;}
+.content table.tb_left {width:40%;margin-right:1px;}
+.content table thead {background:#708cba;color:#fff;font:13px "Rix고딕 M";border:2px solid #708cba;}
+.content table thead tr th {height:24px;}
+.content table tbody tr td {border:2px solid #708cba;height:23px;text-align:center;font:13px "Rix고딕 M";}
+.content table tbody tr.rd_box {height:200px;}
+.content table tbody .bg_blue {background:#0070c0;}
+.content table tbody .bg_blue span {background:#b3d4ec;border-radius:5px;width:80%;padding:2px 0 3px;display:block;margin:auto;margin-top:0px;}
+.content table tbody .bg_green {background:#92d050;}
+.content table tbody .bg_green span {background:#dff1cb;border-radius:5px;width:80%;padding:2px 0 3px;display:block;margin:auto;}
+.content table tbody .bg_yellow {background:#ffc000;}
+.content table tbody .bg_yellow span {background:#ffecb3;border-radius:5px;width:80%;padding:2px 0 3px;display:block;margin:auto;}
+
+.content table.tb_right,.tb_left {float:left;}
+.content table.tb_right {width:59.6%;}
+.content table.tb_right tbody tr td.line {text-align:right;padding-right:7%;}
+
+.content table tbody .bg_blue_r {background:#0070c0;}
+.content table tbody .bg_blue_r span {background:#b3d4ec;border-radius:5px;width:90%;padding:2px 0 3px;display:block;float:right;padding-right:5%;text-align:right;margin-right:2%;}
+.content table tbody .bg_green_r {background:#92d050;}
+.content table tbody .bg_green_r span {background:#dff1cb;border-radius:5px;width:90%;padding:2px 0 3px;display:block;float:right;padding-right:5%;text-align:right;margin-right:2%;}
+.content table tbody .bg_yellow_r {background:#ffc000;}
+.content table tbody .bg_yellow_r span {background:#ffecb3;border-radius:5px;width:90%;padding:2px 0 3px;display:block;float:right;padding-right:5%;text-align:right;margin-right:2%;}

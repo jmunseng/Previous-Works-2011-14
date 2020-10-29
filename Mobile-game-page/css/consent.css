@@ -1,0 +1,17 @@
+@import url("import.css");
+
+body {background:#efefef;}
+section {width:99%;margin:auto;}
+h2 {margin-top:27px;font:15px "Rix고딕 EB";margin-left:12px;}
+dl {font:14px "Rix고딕 M";margin-top:19px;}
+dl dt {padding-left:12px;height:25px;line-height:25px;color:#3a3a3a;}
+dl dd {margin-bottom:1px;border-radius:5px;background:#fff;border:1px solid #e5e5e5;padding-left:24px;border-bottom:1px solid #e5e5e5;height:40px;line-height:40px;color:#454545;display:block;}
+dl dd label {height:40px;display:block;float:left;width:80%;}
+dl dd a:hover {background:#d3d3d3;}
+dl dd a {width:20%;;height:40px;display:block;float:right;}
+dl dd img {float:right;margin-top:13px;margin-right:20px;}
+input {margin-right:5px;border:1px solid #ccc;}
+p {font:12px "Rix고딕 M";color:#454545;padding:12px 10px}
+ul {width:100%;display:table;}
+ul li {width:50%;display:table-cell;padding:0 3px;}
+ul li a {border:1px solid #ccc;border-radius:5px;display:block;text-align:center;height:36px;font:15px/36px "Rix고딕 M";background:#f6f6f6;color:#5d6167;}

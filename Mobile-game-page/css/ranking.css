@@ -1,0 +1,19 @@
+@import url("import.css");
+
+.rkpg header {padding:10px 8px 6px;}
+.rkpg header h2 {font:13px "Rix고딕 B";color:#282828;}
+.rkpg header span {font:10px "Rix고딕 M";color:#5d6167;}
+
+.rkpg p {width:100%;height:48px;background:#2d3039;text-align:center;}
+.rkpg p select {background:#fff;border-radius:3px;width:98%;height:30px;margin-top:9px;font:15px "Rix고딕 M";color:#646464;}
+.content {padding:7px 0;}
+.content h2 {height:25px;position:relative;font:15px "Rix고딕 B";color:#576d8e;border-bottom:1px solid #d7dade;padding:0 6px;}
+.content h2 a {position:absolute;top:-5px;right:18px;}
+
+.content table {width:98%;margin:auto;}
+.content table thead {font:15px "Rix고딕 B";color:#969696;height:18px;}
+.content table thead tr th {padding:3px 0;}
+.content table tbody {font:14px "Rix고딕 M";color:#282828;text-align:center;}
+.content table tbody tr td {height:11px;padding:1px 0;}
+.content table {margin-bottom:10px;}
+.content table tbody .blue {color:#006da1;}

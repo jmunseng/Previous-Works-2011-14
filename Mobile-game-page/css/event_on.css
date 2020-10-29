@@ -1,0 +1,18 @@
+@import url("import.css");
+
+
+header {width:100%;}
+header p {width:100%;height:48px;background:#2d3039;text-align:center;}
+header p select {background:#fff;border-radius:3px;width:95%;height:30px;margin-top:9px;font:15px "Rix고딕 M";color:#646464;}
+header h2 {display:block;font:10px "Rix고딕 M";color:#5d6167;padding:12px 2% 5px;}
+header h2 a {display:block;margin-left:12px;margin-top:5px;color:#3279ee;}
+
+section ul {clear:both;border-top:2px solid #e4e6e9;padding:11px 8px;position:relative;display:block;}
+section ul li {float:left;font:14px "Rix고딕 B";height:51px;}
+section ul .ls_img2 {line-height:55px;}
+section ul .ls_middle {padding-top:15px;}
+section ul .ls_middle p {font-size:10px;color:#969696;}
+section ul .ls_right a {font-size:15px;color:#5d6167;padding:8px;border:1px solid #d2d2d2;border-radius:3px;position:absolute;top:19px;right:8px;}
+section ul .ls_right span {position:absolute;top:19px;right:8px;text-align:right;color:#007bc0;}
+
+section ul li span {margin-right:8px;}
