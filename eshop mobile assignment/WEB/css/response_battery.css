@@ -1,0 +1,24 @@
+/* section battery */
+@media screen and (min-width: 768px) {
+    
+    section {display: grid;grid-gap: 10px;}
+    .batteryimg {height: 350px;border: 1px solid #2699fb; border-radius: 10px;}
+    .batteryimg img {margin-top:104px;}
+    .pruduct_main>ul {display: grid;grid-gap: 10px;}
+    .product_list {height: 170px;border: 1px solid #2699fb;border-radius: 10px;margin: 0;}
+    .product_img {text-align: center;margin-top: 18px;}
+    .product_img img {width: 80px; height: 80px;}
+    .description {text-align: center;position: static;font-size: 20px;margin-top: 5px;}
+    .description em {display: none;}
+    .battery_percentage {position: static;font: 15px Arial;text-align: center;margin-top: 8px;}
+
+    .batteryimg { grid-column: 1 / span 2; grid-row: 1 / span 2;}
+    .product_list:nth-of-type(1){  grid-column: 3; grid-row: 1;}
+    .product_list:nth-of-type(2){  grid-column: 4; grid-row: 1;}
+    .product_list:nth-of-type(3){  grid-column: 3; grid-row: 2;}
+    .product_list:nth-of-type(4){  grid-column: 4; grid-row: 2;}
+
+    #myProgress {  width: 228px;height: 90px;  background-color: #e7eced;border-radius: 5px;position: relative;    margin: auto;margin-top: 130px}
+    #myBar {width: 10%;height: 90px; background-color: #4CAF50;  text-align: center;  color: white;border-radius: 5px 0 0 5px;line-height: 90px;}
+    #myProgress::after {content: "";width: 10px;height:27px;background: #c7cac7;position: absolute;right: -10px;  top: 30px;}
+    }/* end section battery */

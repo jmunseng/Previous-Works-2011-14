@@ -1,0 +1,31 @@
+body {font:bold 14px arial; color: #2699fb; width: 375px;position: relative;}
+input {font: 14px arial; color: #2699fb;}
+
+/* main_head */
+.main_head {margin-top: 34px;}
+.logo {text-align: center;}
+.menu_ico {position: absolute;top: 0px; left:5%;}
+.ling_ico {position: absolute;top: 0px;right: 5%;}
+.search {margin: auto;width:90%;margin-top: 25px;position: relative;}
+.search button {background-color: #fff; border: none;padding: 10px;position: absolute;top: 5px;right: 5px;}
+.search input {width:88%;height: 46px;border-radius: 5px;border: 1px solid #2699fb;padding-left: 12%;background: url(../img/search.jpg) no-repeat 12px 50%;}
+
+/* end main_head */
+
+
+
+/* main */
+main{margin-top: 38px;}
+.pruduct_main {width: 90%;margin: auto;}
+.product_list {margin-bottom: 8px;border: 1px solid #2699fb;height: 160px;position: relative;background: url(../img/left_on.jpg) no-repeat right 20px bottom 20px}
+.product_name {width: 175px;position: absolute;top: 24px;left: 24px;index:;10;}
+.product_price {position: absolute;left: 24px;bottom: 21px;}
+.product_price em{text-decoration: line-through;color:gray;font-size: 12px;}
+.product_img img{width: 132px; height: 132px;position: absolute;left: 170px;top: 14px;index:-1111;}
+
+/* end main */
+
+/* sign up */
+
+
+/* end sign up */
