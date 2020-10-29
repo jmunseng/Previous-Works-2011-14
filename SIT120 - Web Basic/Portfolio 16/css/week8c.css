@@ -1,0 +1,6 @@
+.a {position: absolute;right: 0;top: 0%;}
+.b {position: absolute;right: 0;top: 20%;}
+.c {position: absolute;right: 0;top: 40%;}
+.a,.b,.c {cursor: move;text-align: center}
+.img1,.img2,.img3 {position: relative;width: 160px;height: 160px;border: 1px solid #000;}
+span{font-size: 60px;color: red;}

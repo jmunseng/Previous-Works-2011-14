@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/week8c.js"></script>
+    <link rel="stylesheet" href="css/week8c.css">
+    <title>Document</title>
+</head>
+
+<script>
+        var won = 0;
+        function drag(ev) {
+            console.log(ev);
+            
+            ev.dataTransfer.setData("text", ev.target.id);
+            console.log(ev.target.id);
+            
+        }
+    
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+    
+        function drop(ev, ele) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            console.log(ele.className );
+            if (data == ele.className) {
+                var df = document.getElementById(data)
+                ev.target.appendChild(df);
+                won +=1;
+            }else{
+                
+                var f = document.createTextNode("X");
+                var d = document.createElement("span");
+                d.setAttribute("id","wrong")
+                d.appendChild(f);
+                ele.appendChild (d);
+                
+            }
+            if(won == 3){
+                $("body").animate({backgroundColor: "green"},1000);
+                // document.body.style.backgroundColor="green";
+            }
+        }
+        
+    </script>
+<body>
+    <img id="img1" class="a" draggable="true" ondragstart="drag(event)" src="img/happy.png" alt="">
+    <img id="img2" class="b" draggable="true" ondragstart="drag(event)" src="img/square.png" alt="">
+    <img id="img3" class="c" draggable="true" ondragstart="drag(event)" src="img/triangle.png" alt="">
+    <div id="box1" class="img1" ondrop="drop(event, this)" ondragover="allowDrop(event)">
+        <p>cricle</p>
+    </div>
+    <div id="box2" class="img2" ondrop="drop(event, this)" ondragover="allowDrop(event)">
+        <p>square</p>
+    </div>
+    <div id="box2" class="img3" ondrop="drop(event, this)" ondragover="allowDrop(event)">
+        <p>triangle</p>
+    </div>
+</body>
+
+</html>

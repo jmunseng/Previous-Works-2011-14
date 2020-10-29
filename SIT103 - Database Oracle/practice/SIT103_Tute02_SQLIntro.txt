@@ -1,0 +1,95 @@
+/* A. Show student numbers of students enrolled in BI918 in semester 2*/
+
+SELECT student_no
+FROM Student_course
+WHERE course_code = 'BI918' AND SEM_START =2 
+/*B.As in query A plus show the st
+udent surname and given name. */
+
+SELECT s.student_no, s.surname ||' '||s.given
+FROM Student s, Student_course c
+WHERE s.student_no = c.student_no AND
+course_code = 'BI918' AND SEM_START =2 
+/*C.As in query B plus show the course name.*/ 
+SELECT s.student_no, s.surname ||' '||s.given, o.course_name
+FROM Student s, Student_course c , Course o
+WHERE s.student_no = c.student_no AND c.course_code= o.course_code AND
+c.course_code = 'BI918' AND SEM_START =2 
+
+/*D.
+List student name, programme code and programme name for all students. */
+
+SELECT s.surname ||' '||s.given As name, p.programme_code
+FROM Student s, Programme p
+WHERE s.programme_code = p.programme_code
+
+/*E.
+List the programme name of students enrolled in BI958 in semester 2. */
+
+SELECT DISTINCT p.programme_name
+FROM Programme p, Student s, Student_course c
+WHERE s.programme_code = p.programme_code AND 
+s.student_no = c.student_no AND
+course_code = 'BI958' AND SEM_START =2 
+/*List each student number and how many 
+courses the student is enrolled in 
+(group by). */
+select student_no, count(*)
+from student_course
+group by student_no;
+
+/*List each course code and how many st
+udents are enrolled in each course, only 
+for semester 1 (group by). */
+
+select course_code,count(*)
+from student_course
+where sem_start = 1
+group by course_code;
+
+/*H. As in query G but also show the course 
+name (hint: secondary grouping field). */
+select sc.course_code,c.course_name, count(*)
+from student_course sc, course c
+where sc.course_code = c.course_code
+and sem_start = 1
+group by sc.course_code, c.course_name;
+
+
+/*I. Show a list of students’ full name, age, 
+and the programme name the student is 
+in (using programme_code in student table)
+. Show only students enrolled in the 
+course AC459. */
+select s.surname ||' '|| s.given as "Name", 
+floor((sysdate-dob)/365) as "Age", p.programme_name
+from student s, programme p, student_course o
+where s.student_no = o.student_no and s.programme_code = p.programme_code
+and o.course_code='AC459';
+/*Alter the query done in I. to show only students olde
+r than 30 years of age. */
+select s.surname ||' '|| s.given as "Name", 
+floor((sysdate-dob)/365) as "Age", p.programme_name
+from student s, programme p, student_course o
+where s.student_no = o.student_no and s.programme_code = p.programme_code
+and o.course_code='AC459'
+AND floor((sysdate-dob)/365) >30
+
+
+CREATE TABLE Customers
+( customer_id number(10) NOT NULL,
+  customer_name varchar2(50) NOT NULL,
+  city varchar2(50),
+  CONSTRAINT PK_cust PRIMARY KEY (customer_id)
+);
+
+
+CREATE TABLE Orders
+( Order_id VARCHAR2(20) NOT NULL,
+  order_date DATE NOT NULL,
+  customer_id number(10),
+  CONSTRAINT PK_order PRIMARY KEY (Order_id),
+  CONSTRAINT FK_cust_order FOREIGN KEY (customer_id) REFERENCES CUSTOMERS(customer_id)
+);
+
+INSERT INTO Customers VALUES(100001,'Smith','Melbourne');
