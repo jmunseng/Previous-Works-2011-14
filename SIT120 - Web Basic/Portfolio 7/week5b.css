@@ -1,9 +1,0 @@
-
-h1 {text-align: center;border-top: 1px solid #000;border-bottom: 1px solid #000;padding: 8px;margin: 8px;}
-p {border: 1px solid blue;border-radius:5px;margin: 0 80px 20px;}
-.footer {border: none; border-top: 5px solid #000;position: absolute; bottom: 20px;}
-  @media screen and (max-width: 500px) {
-    p {margin-bottom: 0;}
-    h1 {text-align: left;border-top:none;padding: 2px 8px;margin: 2px 8px;}
-
-  }
